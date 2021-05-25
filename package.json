@@ -1,6 +1,6 @@
 {
-  "name": "lit-icon",
-  "version": "1.0.1",
+  "name": "ah-lit-icon",
+  "version": "1.0.2",
   "description": "LitIcon is a simple Web Component to display an icon from a set of SVG icons. Inspired by Polymer iron-icon.",
   "keywords": [
     "webcomponents",
@@ -36,12 +36,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/syu93/lit-icon.git"
+    "url": "git+https://github.com/SalesHero-Inc/lit-icon.git"
   },
-  "author": "syu93",
+  "publishConfig": {
+    "registry": "https://nexus.automationhero.ai/repository/ah-npm-repository/"
+  },
+  "author": "SalesHero-Inc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/syu93/lit-icon/issues"
+    "url": "https://github.com/SalesHero-Inc/lit-icon/issues"
   },
-  "homepage": "https://github.com/syu93/lit-icon#readme"
+  "homepage": "https://github.com/SalesHero-Inc/lit-icon#readme"
 }

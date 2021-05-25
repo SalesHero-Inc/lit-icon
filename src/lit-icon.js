@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 export default class LitIcon extends HTMLElement {
   constructor() {
@@ -46,8 +46,8 @@ export default class LitIcon extends HTMLElement {
     `;
 
     this.size = '24';
-    this._icon = '';
-    this._iconset = 'iconset';
+    this._icon = this.getAttribute('icon');
+    this._iconset = this.getAttribute('iconset');
     document.iconMap = document.iconMap || {};
     window.addEventListener('ionset-loaded', this.updateIconset.bind(this));
   }
@@ -88,7 +88,7 @@ export default class LitIcon extends HTMLElement {
         break;
       default:
         break;
-      
+
     }
   }
 
